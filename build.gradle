@@ -37,7 +37,10 @@ repositories {
 		url 'https://maven.jamieswhiteshirt.com/libs-release/'
 	}
 	maven { url 'https://maven.blamejared.com' }
-	maven { url 'http://modmaven.k-4u.nl/artifactory/local-releases/' }
+	maven { 
+		url 'http://modmaven.k-4u.nl/artifactory/local-releases/' 
+		allowInsecureProtocol = true
+		}
 	maven { url 'https://mod-buildcraft.com/maven' }
 	maven { url 'https://maven.dblsaiko.net' }
 	maven { url 'https://maven.terraformersmc.com/' }
